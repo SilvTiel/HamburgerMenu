@@ -1,0 +1,73 @@
+.overlay{
+    width:0;
+    height:100vh;
+    z-index:1;
+    left:0;
+    top:0;
+    overflow-x:hidden;
+    transition:0.5s;
+    position:fixed;
+}
+
+.left{
+    height:100vh;
+    background-image:url("/background1.0.jpg");
+    background-position:center;
+    background-color:black;
+    float:left;
+    width:50%;
+}
+
+.right{
+    height:100vh;
+    background-color:#313131;
+}
+
+.overlay .closebtn{
+    position:absolute;
+    top:15px;
+    right:15px;
+    font-size:40px;
+    font-weight:bolder;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.closebtn{
+    text-decoration: none;
+    background-color:white;
+    border-radius:50px;
+    width:45px;
+    height:45px;
+    text-align: center;
+    color:black;
+}
+.closebtn:hover{
+    opacity: 0.6;
+}
+
+.menu-img{
+    width:50px;
+    right:15px;
+    top:15px;
+    border:none;
+    position:fixed;
+    box-shadow:4px 4px 15px gray;
+    border-radius:25px;
+  }
+
+.menu-img:hover{
+    opacity: 0.6;
+}
+
+.one{
+    height:800px;
+    background-color:red;
+}
+.two{
+    height:800px;
+    background-color:black;
+}
